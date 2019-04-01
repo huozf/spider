@@ -1,0 +1,96 @@
+@CHARSET "UTF-8";
+
+body {
+	background: #6C6E74;
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	color: #ffffff;
+}
+
+.header {
+	width: 500px;
+	height:110px;
+	margin: 0 auto;
+}
+
+.header h1 {
+	font-size: 30px;
+	text-shadow: 2px 5px 5px #000;
+	text-align:center;
+}
+
+#searchSelect{
+	width:120px;
+	height:40px;
+	border:2px solid #408CC8;
+	border-radius:5px;
+	font-size:16px;
+	display:block;
+	float:left;
+	margin-left:120px;
+}
+.btn{
+	width:100px;
+	height:35px;
+	color:#fff;
+	border-radius:5px;
+	display:block;
+	float:left;
+	text-align:center;
+	line-height: 35px;
+	text-decoration:none;
+	margin-left:20px;
+	background: #408AC9;
+}
+.btn:hover{
+	color:#C5464A;
+}
+
+
+
+#wrapper{
+	width:100%;
+}
+
+#content{
+	position:relative;
+	width:1200px;
+	margin:0 auto 25px;
+	padding-bottom: 10px;
+}
+/********************************/
+.grid{
+	width:188px;
+	min-height:200px;
+	margin-top:15px;
+	padding:15px;
+	background: #fff;
+	float:left;
+	box-shadow: 2px 5px 5px rgba(0,0,0,0.8);
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+}
+strong{
+	border-bottom:1px solid #ccc;
+	dispay:block;
+	margin:10px 0;
+	padding:0 0 5px;
+	font-size:15px;
+	color:#000000;
+}
+
+.meta{
+	margin-top:5px;
+	text-align:right;
+}
+
+.lazy{
+	max-width:100%;
+	background:#ccc;
+	display:block;
+}
+
